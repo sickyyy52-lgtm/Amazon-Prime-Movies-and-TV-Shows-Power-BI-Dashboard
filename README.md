@@ -1,69 +1,70 @@
-# Prime Video Power BI Dashboard
-Project Overview
+# 🎬 Prime Video Power BI Dashboard
 
-This project is an interactive Power BI dashboard built using Prime Video movies and TV shows data. The dashboard provides insights into content distribution, ratings, genres, countries, and release trends over time.
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Data Analysis](https://img.shields.io/badge/Data_Analysis-blue?style=for-the-badge)
+![Visualization](https://img.shields.io/badge/Visualization-orange?style=for-the-badge)
 
-Objective
+## 📊 Project Overview
+This project is an interactive **Power BI dashboard** built using Amazon Prime Video's movies and TV shows dataset. The dashboard provides a comprehensive analysis of content distribution, ratings, genres, countries of origin, and release trends over time.
 
-To analyze Prime Video content data and present meaningful insights through visually appealing and interactive dashboards for better understanding and decision-making.
+It aims to transform raw data into meaningful insights to understand content strategies and viewer preferences.
 
-Tools & Technologies
+---
 
-Power BI
+## 🎯 Objective
+To analyze Prime Video content data and present meaningful insights through visually appealing and interactive dashboards. This helps in understanding content growth, popular genres, and regional distribution to support data-driven decision-making.
 
-Power Query
+---
 
-DAX
+## 🛠 Tools & Technologies Used
+*   **Microsoft Power BI Desktop**: For creating the dashboard and visualizations.
+*   **Power Query**: For Data Cleaning, Transformation, and Processing (ETL).
+*   **DAX (Data Analysis Expressions)**: For calculating measures and custom columns.
+*   **Data Visualization**: Using various charts, maps, and cards to represent data.
 
-Data Visualization
+---
 
-Key Features
+## 🗝 Key Features
+*   **KPI Cards**: Displays summary metrics like Total Titles, Ratings, Genres, and Directors.
+*   **Content Segmentation**: Comparative analysis between **Movies** and **TV Shows**.
+*   **Rating Analysis**: Visualization of content based on different maturity ratings (e.g., 13+, 16+, All Ages).
+*   **Genre Trends**: Insights into the most popular genres available on the platform.
+*   **Geographical Distribution**: Interactive map showing content origin by country.
+*   **Temporal Analysis**: Trend analysis of content release over the years (focusing on the growth after year 2000).
+*   **Interactive Filters**: Slicers for specific years, genres, and content types to drill down into the data.
 
-KPI cards showing total titles, ratings, genres, and directors
+---
 
-Analysis of ratings and genres by total shows
+## 💡 Key Insights Generated
+*   **Genre Dominance**: *Drama* and *Comedy* are the leading genres on Prime Video.
+*   **Content Type**: **Movies** constitute the majority of the content library compared to TV Shows.
+*   **Growth Trends**: There was a rapid increase in content production and acquisition post-year 2000.
+*   **Global Reach**: The platform has a diverse range of content from multiple countries, indicating a strong global strategy.
 
-Country-wise content distribution using map visualization
+---
 
-Movies vs TV Shows comparison
+## 🚀 Business Impact
+*   **Content Strategy**: Helps identify popular genres and categories to focus on for future content acquisition.
+*   **Performance Tracking**: Supports strategic planning by highlighting historical growth trends.
+*   **Market Analysis**: Provides insights into which regions are contributing the most content.
+*   **Decision Making**: Improves reporting efficiency by converting complex raw data into actionable visual insights.
 
-Trend analysis of total shows by release year
+---
 
-Interactive slicers for dynamic filtering
+## 📂 Dataset
+The dataset used for this project contains listings of all the movies and TV shows available on Amazon Prime Video, including details such as:
+*   Show ID, Type (Movie/TV Show), Title, Director, Cast
+*   Country, Date Added, Release Year, Rating, Duration
+*   Listed In (Genre), Description
 
-Business Impact
+---
 
-Helps identify popular genres and content categories for better content strategy
+## 📝 Conclusion
+This dashboard demonstrates the power of business intelligence tools like Power BI in handling entertainment industry data. By cleaning, modeling, and visualizing the dataset, we uncovered valuable trends regarding Prime Video's library expansion and genre focus.
 
-Supports data-driven decisions by highlighting growth trends over the years
+---
+## 📸 Screenshots / Demos
+Show what the dashboard looks like:
 
-Enables quick comparison between Movies and TV Shows performance
-
-Provides insights into global content reach across different countries
-
-Improves reporting efficiency by converting raw data into actionable insights
-
-Insights Generated
-
-Drama and Comedy are the most dominant genres
-
-Movies contribute the majority of Prime Video content
-
-Rapid increase in content production after 2000
-
-Strong global presence with content distributed across multiple regions
-
-Conclusion
-
-This dashboard demonstrates the ability to transform raw entertainment data into meaningful insights using Power BI, supporting strategic analysis and business decision-making.
-
-
-
-
-
-
-
-
-
-
-
+**Dashboard Preview**
+![Dashboard Preview](https://github.com/sickyyy52-lgtm/Amazon-Prime-Movies-and-TV-Shows-Power-BI-Dashboard/blob/main/Amazon%20Prime%20Movies%20Dashboard.png?raw=true)
